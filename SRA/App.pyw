@@ -35,4 +35,7 @@ class App(CTk):
 
 
 if __name__ == '__main__':
+    import sys
+    # Multiple increase in the limit of conversion of a number to a string.
+    sys.set_int_max_str_digits(2_147_483_647)
     App().run()
