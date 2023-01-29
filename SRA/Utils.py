@@ -7,4 +7,4 @@ def sqrt_sum(amount: int) -> int:
     :param amount: The amount of numbers to add.
     :return: The root sum.
     """
-    return sum(int(sqrt(i)) for i in range(0, amount))
+    return sum(int(sqrt(i)) for i in range(1, amount + 1))
