@@ -11,7 +11,7 @@ class App(CTk):
         self._global_font = CTkFont("Roboto", 30)
 
         # Configure the window
-        self.wm_iconbitmap("res/calc.ico")
+        self.wm_iconbitmap(__file__ + "/../res/calc.ico")
         self.geometry("450x170")
         self.title("Serial Root Adder")
         self.resizable(False, False)
@@ -36,6 +36,7 @@ class App(CTk):
 
 if __name__ == '__main__':
     import sys
+
     # Multiple increase in the limit of conversion of a number to a string.
     sys.set_int_max_str_digits(2_147_483_647)
     App().run()
