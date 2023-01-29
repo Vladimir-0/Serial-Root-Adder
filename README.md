@@ -1,6 +1,6 @@
 # Serial-Root-Adder
 
-Sequentially adds roots from 0 to n. (With GUI)
+Sequentially adds roots from 0 to n. (With GUI. Code in Python.)
 
 ## Install requirements
 
@@ -18,4 +18,4 @@ python SRA/App.pyw
 
 ### From explorer
 
-Run `SRA/App.pyw` file.
+Open `SRA/App.pyw` with python.
